@@ -1,70 +1,108 @@
+:root{
+    --fLast:20px;
+    --lFirst:2;
+}
 body{
-display: flex;
-flex-direction: column;
-align-items: center;
-background: pink;
-color: #fff;
-font-size: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffc0cb;
+    color: #fff;
+    font-size: 1.75rem;
+    text-shadow: 5px 1px 5px #ff0000;
 }
 
-.container
-{
-height:700px ;
-width:700px ;
-margin: 20px auto;
-display:flex;
-flex:1 1 0;
-flex-wrap: wrap;
-
+.container{
+    height:500px ;
+    width:500px ;
+    margin: 20px auto;
+    display:flex;
+    flex:1 1 0;
+    flex-wrap: wrap;
+    box-shadow: rgb(66, 66, 66) 0px 0px 20px;
+    border-radius: 20px;
 }
+
 .white{
-padding:15px;
-
-color: #fff;
-
-font-size:1.25rem;
-height: 100px;
-width: 100px;
-display: flex;
-align-items: center;
-justify-content: center;
-box-sizing: border-box;
+    /* padding:15px; */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
 }
 
 .holder{
-border: #000 solid 2px;
-width: 90%;
-text-align: center;
-padding: 8px;
-border-radius: 4%;
-display: flex;
-justify-content: space-evenly;
-align-items: center;
+    border: #2274A5 solid 2px;
+    width: 90%;
+    /* text-align: center; */
+    padding: 2px;
+    border-radius: 1%;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
 }
 
 .options{
-display: flex;
-margin: 20px auto;
-justify-content: space-evenly
-}
-
-.options button{
-margin:auto 1rem;
-font-size: 1.125rem;
-}
-
-
-img{
-box-sizing: border-box;
-height: 100px;
-width: 100px;
-}
-
-.btn:hover ,.white:hover{
-box-shadow: #000 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20px;
+    align-items: center;
+    gap:10px;
+    justify-content: space-evenly;
 }
 
 .head{
-
-margin: 10px auto;
+    margin: 8.798px auto;
 }
+
+button{
+    background-color: #2274A5;
+    margin:auto .5rem;
+    font-size: 1.125rem;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 9%;
+    font-size: 1rem;
+    width: 69px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box{
+    margin:0px;
+    background:#fcfdff;
+    box-sizing: border-box;
+    border-radius:1%;
+    box-shadow:1px 1px 1px grey; 
+}
+
+.apply{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-shadow: none;
+}
+
+.options-section{
+    border: rgb(34, 116, 165) solid 1px;
+    background-color: rgba(34, 116, 165, 10%);
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.activity{
+    margin-left: -10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
