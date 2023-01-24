@@ -1,2 +1,3 @@
 # Sketch
-It's website where one cam draw 
+It's website done under TheOdinProject ..
+where a user can draw on given area
